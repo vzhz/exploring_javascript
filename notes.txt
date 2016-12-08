@@ -1,0 +1,4 @@
+Ch 2
+JS uses camel case
+in REPL no need to console log a var to print it
+once you declare a var with var = blah, reassignment doesn’t need any var declaration
