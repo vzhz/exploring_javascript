@@ -9,3 +9,10 @@ primitive types: boolean, null, undefined, number, string
 strings are immutable but can be concatenated 
 
 Ch4 : Objects
+objects are mutable, just a collection of properties (ex. string object has a length by definition)
+if try to get length of a number, get undefined
+(6).length so interp not think 6. 
+declare objects with {}, so var imAnObject = {}
+check type with typeof, so typeof imAnObject;
+
+Ch5 : Arrays
