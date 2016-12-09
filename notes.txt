@@ -16,3 +16,9 @@ declare objects with {}, so var imAnObject = {}
 check type with typeof, so typeof imAnObject;
 
 Ch5 : Arrays
+arrays are lists that are called arrays
+var groceries = [‘blah’, ‘blahblah’]
+in JS, arrays are still objects — everything that wasn’t a primitive is an object
+special properties: groceries[0]; will return item at index zero
+groceries[groceries.length - 1]; will give last element in array
+good for ordered lists
