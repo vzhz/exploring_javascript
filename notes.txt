@@ -22,3 +22,9 @@ in JS, arrays are still objects — everything that wasn’t a primitive is an o
 special properties: groceries[0]; will return item at index zero
 groceries[groceries.length - 1]; will give last element in array
 good for ordered lists
+
+Ch6 : Functions
+return statement in function used to return a value from invocation
+if don’t care about the value but just the “side effects” of the function, no need to return
+if no return statement, returns “undefined”
+notice the scope of the function in hello world file
