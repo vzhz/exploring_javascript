@@ -28,3 +28,14 @@ return statement in function used to return a value from invocation
 if don’t care about the value but just the “side effects” of the function, no need to return
 if no return statement, returns “undefined”
 notice the scope of the function in hello world file
+
+Ch7 : Operators
+expression can be multiple lines if assignment to variable and only has one semicolon
+can include query parameters in the URL with apiURL + ‘?lon’ + coordinate.longitude
+query params aren’t like vars in that you need to use the params that are expected
+if you have coordinate.longitude, good is object and long is property of that object
+3+5 = 8
+‘3’+’5’= 35
+
+Ch8 : Requests and Servers
+
