@@ -38,4 +38,11 @@ if you have coordinate.longitude, good is object and long is property of that ob
 ‘3’+’5’= 35
 
 Ch8 : Requests and Servers
+make requests to servers and get responses
+first resolves URL to IP address (address of a computer where the data you want is stored)
+your IP address is included in your request and this is where the data is sent
+our makeRequest function does this
+URL for weather site is it’s first argument
+once data comes back, calls another function (passed as argument) <— since called at a later time, is called a callback function and handles the weather data it eventually gets
 
+looking it up : you may want to know exactly how it physically works, but that’s a distraction from what you are trying to do (make the damned thing work)
