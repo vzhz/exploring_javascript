@@ -46,3 +46,30 @@ URL for weather site is it’s first argument
 once data comes back, calls another function (passed as argument) <— since called at a later time, is called a callback function and handles the weather data it eventually gets
 
 looking it up : you may want to know exactly how it physically works, but that’s a distraction from what you are trying to do (make the damned thing work)
+
+Ch9 : Classes and Objects
+keyword “new” creates an object so for example “new XMLHttpRequest();” <— this is constructor method and XMLHttpRequest is the constructor function
+also creates an object: var pelage = {}
+think var peleg = new Object();
+check type with typeof <thing>; and will return whatever it is
+guess what class a given thing is paired with with <thing> instanceof <class>; will return true or false
+
+asynchronous programming : AJAX is request to a server that’s being done in the background without stopping the computer from doing anything else
+JS is inherently asynchronous because it is mainly used in the browser to interact with elements on the page and some of that is out of interpreter’s control so need to not block other things
+until recently, each tab only had one thread for processing so if JS blocked it while getting data from server, can’t to any JS on page until done
+this means our code can’t be written linearly because sometimes we have to wait on an IO operation before you can complete your next thing
+JS is used for iPhone apps, editors, web servers
+inspect vars by typing them into your Console and see properties and methods
+
+debugging : type each function into the console and try different arguments, use debugger statement console, use console.log (like Python’s print) often, use Firefox’s Network tab for debugging HTTP requests (type request into console and invoke with URL)
+debugger statement: 
+var add = function (num1, num2) {
+  debugger;
+  return num1 + num2;
+}
+invoke with (for example) add(3, 6)
+can use to access values for function arguments
+to go back to execution of function, press play icon
+
+
+
